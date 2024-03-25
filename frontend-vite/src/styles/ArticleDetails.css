@@ -1,0 +1,96 @@
+.ant-layout {
+  height: 100%;
+}
+
+.header {
+  padding: 0;
+}
+
+.logo {
+  width: 200px;
+  height: 60px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: red;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.article-container {
+  min-height: 100vh;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.article-container h2 {
+  font-weight: bold;
+  font-size: 2rem;
+  max-width: 70%;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.article-info {
+  width: 80%;
+  display: flex;
+  justify-content: left;
+}
+
+.article-info:hover {
+  cursor: pointer;
+}
+
+
+.article-info > * {
+  padding: 5px 5px 5px 0;
+}
+
+.article-basic-info-container {
+  display: flex;
+  font-size: 0.8rem;
+  flex-direction: column;
+  align-items: start;
+  padding-bottom: 20px;
+}
+
+.action-container {
+  display: flex;
+  align-items: center;
+}
+
+.action-container > * {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.action-container i:hover {
+  cursor: pointer;
+}
+
+.article-contents {
+  align-self: start;
+  width: 80%;
+  margin-left: 10%;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.article-contents p {
+  font-size: 1.2rem;
+  line-height: 160%;
+}
+
+.article-container button {
+  border: none;
+}
+
+.like-button {
+  align-self: end;
+  margin-right: 5%;
+}

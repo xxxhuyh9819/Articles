@@ -1,0 +1,50 @@
+.ant-layout {
+  height: 100%;
+}
+
+.header {
+  padding: 0;
+}
+
+.logo {
+  width: 200px;
+  height: 60px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: red;
+}
+
+.layout-content {
+  overflow-y: auto;
+}
+
+.user-info {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding-right: 20px;
+  color: #fff;
+}
+
+.user-name {
+  margin-right: 20px;
+}
+
+.user-name > * {
+  padding: 5px;
+}
+
+.user-logout {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.pagination-buttons > * {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.ant-layout-header {
+  padding: 0 !important;
+}

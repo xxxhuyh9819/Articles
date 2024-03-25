@@ -1,0 +1,12 @@
+.form-group {
+    display: flex;
+    width: 100%;
+}
+
+.form-group-input {
+    margin-right: 10px;
+}
+
+.form-group-button {
+    margin-left: 10px;
+}

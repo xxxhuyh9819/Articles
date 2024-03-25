@@ -1,0 +1,144 @@
+.profile {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.profile-card {
+    min-height: 100%;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 10px 20px 10px
+}
+
+.profile-info > * {
+    display: flex;
+    align-items: center;
+
+}
+
+.profile-info section > * {
+    margin-right: 10px;
+}
+
+.profile-info i:hover {
+    cursor: pointer;
+}
+
+.user-info-section {
+    min-height: 400px;
+    flex: 1;
+    background-color: rgba(221, 221,221, 0.6);
+    box-shadow: 0 0 50px rgb(0 0 0 / 10%);
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container > * {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.info-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-container h3 {
+    text-align: center;
+}
+
+.info-container > * > * {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.info-container h1 {
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 5rem;
+    color: #1f1e33;
+}
+
+.latest-follower {
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.user-info-section p {
+    text-align: left;
+}
+
+#follow-section {
+    display: inline-block;
+    align-items: start;
+    position: relative;
+}
+
+#follow-section ul {
+    background-color:  rgba(221, 221,221, 0);
+    height: 300px;
+    border-radius: 10px;
+    display:block;
+    overflow: hidden;
+    overflow-y:scroll;
+}
+
+.followee:not(:first-child) {
+    margin-top: 10px;
+}
+
+.followee {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eee;
+    border-radius: 5px;
+    box-shadow: 0 0 50px rgb(0 0 0 / 10%);
+    width: 100%;
+    transition: all 0.3s ease
+}
+
+.followee > i:hover {
+    transform: scale(1.2);
+}
+
+.followee:hover {
+    cursor: pointer;
+    transform: scaleY(1.15);
+}
+
+.followee > * {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.followee > * > * {
+    font-size: 1.2rem;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.followee section {
+    display: flex;
+    align-items: center;
+}
+
+.user-articles {
+    margin-left: 10px;
+}
